@@ -30,3 +30,7 @@ This starts the process of conversion resulting in 3 files, but we will only use
     1. Execute the following command:
         `choco apikey -k API -source https://push.chocolatey.org/`
         `choco push range-dojo.1.0.1.nupkg -s https://push.chocolatey.org/`
+
+## Install the program
+
+    1. Execute the following command: `choco install range-dojo --version=1.0.1`
