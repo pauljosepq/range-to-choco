@@ -17,3 +17,7 @@ This starts the process of conversion resulting in 3 files, but we will only use
 
 1. Create a new package
     1. Open the Windows PowerShell
+    2. Choose a direction inside the device where you want to run and create the package
+    3. Run the following command:
+    `choco new range-dojo`
+2. Edit the templates info 
