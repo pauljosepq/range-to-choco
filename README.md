@@ -13,4 +13,7 @@ To do that we did the following steps:
 
 This starts the process of conversion resulting in 3 files, but we will only use the .exe one.
 
-## 
+## Using Chocolatey
+
+1. Create a new package
+    1. Open the Windows PowerShell 
