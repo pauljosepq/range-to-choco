@@ -7,9 +7,9 @@ To do that we did the following steps:
 
 1. Install pkg dependency
 
-2. Package app using the pkg with the command:
+1. Package app using the pkg with the command:
 
-> npx pkg *starting filename*
+> `npx pkg *starting filename*`
 
 This starts the process of conversion resulting in 3 files, but we will only use the .exe one.
 
@@ -17,7 +17,9 @@ This starts the process of conversion resulting in 3 files, but we will only use
 
 1. Create a new package
     1. Open the Windows PowerShell
-    2. Choose a direction inside the device where you want to run and create the package
-    3. Run the following command:
-    `choco new range-dojo`
-2. Edit the templates info 
+    1. Choose a direction inside the device where you want to run and create the package
+    1. Run the following command: `choco new range-dojo`
+1. Edit the templates info
+    1. chocolateyinstall.ps1
+    1. chocolateyuninstall.ps1
+    1. range-dojo.nuspec
