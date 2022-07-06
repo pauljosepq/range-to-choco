@@ -16,4 +16,4 @@ This starts the process of conversion resulting in 3 files, but we will only use
 ## Using Chocolatey
 
 1. Create a new package
-    1. Open the Windows PowerShell 
+    1. Open the Windows PowerShell
