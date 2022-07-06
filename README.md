@@ -23,3 +23,10 @@ This starts the process of conversion resulting in 3 files, but we will only use
     1. chocolateyinstall.ps1
     1. chocolateyuninstall.ps1
     1. range-dojo.nuspec
+1. Build the package with the command `choco pack`
+1. Publish the package
+    1. Sign up/in in the application or website
+    1. Copy your API Key
+    1. Execute the following command:
+        `choco apikey -k API -source https://push.chocolatey.org/`
+        `choco push range-dojo.1.0.1.nupkg -s https://push.chocolatey.org/`
